@@ -1,0 +1,285 @@
+.header{
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #d9d9d9;
+}
+.content-box{
+    margin: 0 auto;
+    max-width: 1180px;
+}
+.header-logo{
+    height: 50px;
+    margin-right: 16px;
+}
+.header-text{
+    padding-left: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    border-left: 1px solid #666;
+}
+.content-wrap{
+    background: #f3f5fb url(https://zx.500.com/gongju/img/bg1.0f072d9b.jpg) no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.content-wrap-header-title{
+    text-align: center;
+}
+.content-wrap-header-title img{
+    width: 50px;
+    height: 50px;
+}
+.header-title-text{
+    color: #dbb880;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.content-wrap-header-desc{
+    padding: 30px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #667591;
+    font-size: 18px;
+}
+.mzl{
+    text-align: right;
+    color: #e5c195;
+    font-size: 20px;
+    padding: 0 30px 30px;
+}
+.mzl em{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 6px;
+}
+.content-wrap-date{
+    display: flex;
+    display: -webkit-flex;
+    padding: 10px 30px;
+    background-color: hsla(0,0%,100%,.1);
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    justify-content: center;
+}
+.date-item{
+    width: 50px;
+    height: 86px;
+    margin: 0 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.date-item.active{
+    background-color: #fcfcfc;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 0 0.133333rem #666;
+    box-shadow: 0 0 0.133333rem #666;
+}
+.date-item.active .date{
+    color: #242c35;
+    opacity: 1;
+}
+.date-item .date{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 14px;
+    opacity: .5;
+}
+.day{
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+.chang-list{
+    background-color: #f3f5fb;
+    color: #666;
+    position: relative;
+    padding: 30px;
+}
+.chang-list-title{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.chang-item{
+    position: relative;
+    padding: 20px 20px 0 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 0.2rem hsla(0,0%,82.7%,.5);
+    font-size: 16px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+.chang-item .bs{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.bg-red{
+     background: #f00;
+ }
+.bg-blank{
+    background: #a1a1a1;
+}
+.chang-item-title span{
+    padding: 0 10px;
+}
+.chang-info{
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    padding: 30px 0;
+}
+.info-a{
+    flex: 1;
+}
+.info-a .name{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.chang-info-btn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.chang-info-btn .btn{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #ebedf4;
+    color: #b8bac2;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.chang-yc{
+    position: relative;
+    border-top: 1px solid #f4f4f4;
+    color: #9fa1ac;
+    font-size: 16px;
+    min-height: 60px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+.chang-yc span{
+    color: #b67f36;
+    font-size: 24px;
+    font-weight: 700;
+}
+.chang-info-btn .btn.check{
+    background: #ff6497;
+    color: #fff;
+}
+.chang-info-btn .btn.check:after {
+    content: "";
+    position: absolute;
+    right: -.173333rem;
+    top: -.173333rem;
+    width: .346667rem;
+    height: .346667rem;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABFUExURUxpceTFhuTFhuTFhuTFhuTFhuTFhuTFhuTFhuTFhuTFhuTFhuTFhuTFhv////789/HgverRnuvToubIjfrz5efNlvjw37Jki+sAAAANdFJOUwAIwyy+f/jI5pg9ET/P/lQXAAAArklEQVQoz32S2xaEIAhFydS0BrOa+v9PHbCbt/G8wGIv9KAAXOqVNFobqXpI9RH4SIwR6Cwmst1NpgEzDdPVUxBiZ5/FimxwgFWxF5EXtz34pHlysszOc+xBlcQdnCiQJZlXziSYUPHu2FKCBnSIVPkSW1+C+kLeMYsJofPAkzFZ7lvNY4NZTMjGY96nhMy/I/uE0MjRQ+1bRET7eRuf0vrKxgK01oY0/lu2+or+AJoCG2YYLKAqAAAAAElFTkSuQmCC) no-repeat;
+    background-size: 100%;
+}
+.chang-yc.suo{
+    cursor: pointer;
+    color: #b67f36;
+}
+@media screen and (max-width: 1080px) {
+    .content-wrap-date{
+        padding: 10px;
+    }
+    .date-item{
+        margin: 0;
+        padding: 6px;
+    }
+    .chang-list{
+        padding: 20px 10px;
+    }
+    .chang-item{
+        padding: 15px 15px 0 15px;
+        margin-bottom: 15px;
+    }
+    .chang-info-btn .btn{
+        width: 110px;
+    }
+    .chang-item .bs{
+        top: 15px;
+    }
+    .chang-list-title{
+        margin-bottom: 20px;
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 46px;
+        line-height: 46px;
+        z-index: 3333;
+        text-align: center;
+    }
+    .header-text{
+        border-left: none;
+        font-size: 18px;
+        padding-left: 0;
+    }
+    .header-logo{
+        display: none;
+    }
+    .info-a .name{
+        font-size: 18px;
+    }
+    .chang-item{
+        font-size: 14px;
+    }
+    .chang-info-btn{
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+    }
+    .chang-info-btn .btn{
+        flex: 3;
+        width: auto;
+        margin: 0 5px;
+    }
+    body{
+        padding-top: 46px;
+    }
+    .footer{
+        display: none;
+    }
+    .code{
+        display: none;
+    }
+    .date-item.active{
+        border-radius: 6px;
+
+    }
+    .date-item{
+        height: 70px;
+    }
+    .date-item .date{
+        padding-top: 10px;
+    }
+}

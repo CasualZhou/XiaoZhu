@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能大数据</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/swiper-4.3.3.min.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header-content content-box">
+        <img class="header-logo" src="./image/logo.png" alt="">
+        <span class="header-text">智能大数据</span>
+    </div>
+</div>
+<div class="swiper-container index-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="index-swiper-img" src="https://img.500.com/upimages/sfc/202008/20200804103354_4362.jpg" alt="">
+        </div>
+    </div>
+</div>
+<section class="content-block">
+    <div class="content-box">
+        <div class="right-info-box">
+            <div class="right-info-box-header">
+                <div class="title">
+                    <div class="vip-icon">
+                        <img src="./image/vip.png" alt="">
+                    </div>
+                    请登录 <span class="vip-no">VIP1</span>
+                </div>
+            </div>
+            <div style="height: 280px;position: relative">
+                <img class="logo-donghua" src="./image/logo.png" alt="">
+            </div>
+        </div>
+        <div class="content-box-title">
+            精选竞技彩
+        </div>
+        <div class="content-list">
+            <div class="content-item">
+                <div class="content-item-icon">
+                    <img src="https://www.500cache.com/news/images/service/tools/icon-tjds-dlt-square.png" alt="">
+                </div>
+                <h3 class="content-item-name">胜负平</h3>
+                <div class="content-item-desc">
+                    汇聚历史和当期海量数据，精选当期方案组合
+                </div>
+                <div class="content-item-handle">
+                    <span class="tools-price">
+                        <strong class="money">268</strong><em class="union">元/月</em>
+                        <span class="original-price">488元/月</span>
+                    </span>
+                    <a class="btn-buy" href="#">立即查看</a>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="content-item-icon">
+                    <img src="https://www.500cache.com/news/images/service/tools/icon-tjds-ssq-square.png" alt="">
+                </div>
+                <h3 class="content-item-name">比分</h3>
+                <div class="content-item-desc">
+                    汇聚历史和当期海量数据，精选当期方案组合
+                </div>
+                <div class="content-item-handle">
+                    <span class="tools-price">
+                        <strong class="money">268</strong><em class="union">元/月</em>
+                        <span class="original-price">488元/月</span>
+                    </span>
+                    <a class="btn-buy" href="#">立即查看</a>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="content-item-icon">
+                    <img src="https://www.500cache.com/news/images/service/tools/icon-dlt-square.png" alt="">
+                </div>
+                <h3 class="content-item-name">进球数</h3>
+                <div class="content-item-desc">
+                    汇聚历史和当期海量数据，精选当期方案组合
+                </div>
+                <div class="content-item-handle">
+                    <span class="tools-price">
+                        <strong class="money">268</strong><em class="union">元/月</em>
+                        <span class="original-price">488元/月</span>
+                    </span>
+                    <a class="btn-buy" href="#">立即查看</a>
+                </div>
+            </div>
+            <div class="content-item">
+                <div class="content-item-icon">
+                    <img src="https://www.500cache.com/news/images/service/tools/icon-ldxd-square.png" alt="">
+                </div>
+                <h3 class="content-item-name">半全场</h3>
+                <div class="content-item-desc">
+                    汇聚历史和当期海量数据，精选当期方案组合
+                </div>
+                <div class="content-item-handle">
+                    <span class="tools-price">
+                        <strong class="money">268</strong><em class="union">元/月</em>
+                        <span class="original-price">488元/月</span>
+                    </span>
+                    <a class="btn-buy" href="#">立即查看</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script>
+  $(function () {
+    var mySwiper = new Swiper('.index-swiper', {
+      autoplay: true,//可选选项，自动滑动
+    })
+    $('.go-register').click(function () {
+      $('.login-form').addClass('hidden')
+      $('.register-form').removeClass('hidden')
+    })
+
+    $('.back-login').click(function () {
+      $('.register-form').addClass('hidden')
+      $('.register-form,.login-form').toggleClass('hidden')
+      $('.login-form').removeClass('hidden')
+    })
+  })
+</script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能大数据</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/swiper-4.3.3.min.js"></script>
+</head>
+<body>
+<div class="swiper-container login-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="login-swiper-img" src="./image/zhuqiu1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img class="login-swiper-img" src="./image/zhuqiu2.jpg" alt="">
+        </div>
+    </div>
+    <div class="login-info">
+        <div class="logo">华全电气智慧城市多功能杆云平台</div>
+        <input type="text" placeholder="请输入账号"/>
+        <input type="password" class="center-input" placeholder="请输入密码"/>
+        <button class="login-btn" :loading="loginLoading" type="primary" @click="loginClick">登 录</button>
+    </div>
+</div>
+</body>
+<script>
+  $(function () {
+    var mySwiper = new Swiper('.login-swiper', {
+      autoplay: true, //可选选项，自动滑动
+      effect : 'fade',
+      allowTouchMove:false
+    })
+  })
+</script>
+</html>
